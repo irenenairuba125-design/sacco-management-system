@@ -1,0 +1,11 @@
+# Live data - never commit (member records, password hashes)
+data/
+backups/
+*.db
+*.db-wal
+*.db-shm
+
+node_modules/
+.env
+.DS_Store
+Thumbs.db

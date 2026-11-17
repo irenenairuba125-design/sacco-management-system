@@ -1,0 +1,13 @@
+{
+  "name": "sacco-management-system",
+  "version": "1.0.0",
+  "description": "SACCO Management System: members, savings, shares, loans, repayments, penalties, dividends, reports, SMS and audit trail",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "seed": "node --disable-warning=ExperimentalWarning src/seed.js --reset",
+    "demo": "node --disable-warning=ExperimentalWarning src/seed.js --reset && node --disable-warning=ExperimentalWarning server.js"
+  }
+}
